@@ -102,6 +102,5 @@ def update_scatter_chart(selected_site, payload_range):
     )
     return fig
 
-# FIX: Use app.run() instead of app.run_server()
 if __name__ == '__main__':
-    app.run(debug=True)  # Changed to app.run()
+    app.run_server(debug=True)  
